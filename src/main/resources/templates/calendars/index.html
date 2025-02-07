@@ -31,6 +31,9 @@
           </ul>
         </div>
       </div>
+      <ul class="content">
+        <li th:each="plan : ${day.plans}" class="plan-list">・<span th:text="${plan}"></span></li>
+      </ul>
     </div>
   </div>
 </body>
